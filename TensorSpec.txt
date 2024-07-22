@@ -1,0 +1,4 @@
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='keras_tensor_649')
+Output Type:
+  TensorSpec(shape=(None, 100), dtype=tf.float32, name=None)
