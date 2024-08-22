@@ -34,8 +34,8 @@ The images were collected from various sources, including field observations, mu
 * An automated system for butterfly species identification can have a profound impact on our understanding of these insects and their role in ecosystems. 🌟
 
 
+===========================================================================
 
-------------
 ## `Methodology` 🔍
 
 > ### Requirements
