@@ -110,4 +110,4 @@ To get started with this project, you'll need to:
 * Download the dataset from Kaggle 📈
 * Run the code to train and evaluate the model 🤖
 
-I hope you enjoy working with this project! 😊
+Enjoy working with this project! 😊
