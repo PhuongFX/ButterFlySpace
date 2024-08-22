@@ -7,38 +7,60 @@ This project is all about using deep learning to classify images of butterflies 
 The images were collected from various sources, including field observations, museum collections, and online repositories.
 
 
+**Dataset**
+------------
+
+* **Dataset URL:** https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species
+* **License:** CC0-1.0
+* **Number of images:** 12594
+* **Number of classes:** 100
+
 | Category | Number of Images |
 | --- | --- |
-| Training | 8,000 |
-| Validation | 1,000 |
-| Testing | 1,000 |
+| Training | 12594 |
+| Validation | 500 |
+| Testing | 500 |
 
 ## `The Problem` 🤔
 
 * Manual identification of butterfly species is a time-consuming and expertise-dependent process, prone to errors and inconsistencies. 📝
 * The lack of an efficient and accurate identification system hinders the study of butterfly populations, habitats, and behavior, ultimately affecting conservation efforts. 🌎
+* An automated system for butterfly species identification can have a profound impact on our understanding of these insects and their role in ecosystems. 🌟
 
 ===============================================================================
 ## `Methodology` 🔍
-### Data Preprocessing 🔀
+
+> ### Requirements
+
+* Python 3.x
+* TensorFlow 2.x
+* Keras
+* OpenCV
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Plotly
+  
+> ### Data Preprocessing 🔀
 
 * Data augmentation: Apply random transformations to the images to artificially increase the size of the training set using TF-keras pre-processing layers. 🔀
 * Image resizing: Resize images to a uniform size of 224x224 pixels.
 
-### Model Architecture 📚
+> ### Model Architecture 📚
 
-* Base model: MobileNetV3Large model pre-trained on ImageNet
+* Base model: MobileNetV3Large model pre-trained on ImageNet (224, 224, 3)
 * Custom classification head: Add a new classification head on top of the base model, consisting of global average pooling layers, batch normalization layers, and dense layers with 100 units.
 
-### Training 📊
+> ### Training 📊
 
-* Optimizer: Adam
-* Loss function: Sparse categorical cross-entropy
-* Batch size: 32
-* Number of epochs: 50
+* **Optimizer:** Adam
+* **Loss function:** Sparse categorical crossentropy
+* **Batch size:** 32
+* **Number of epochs:** 50
+* **Metrics:** Accuracy
 
-
-### Model Performance 📊
+> ### Model Performance 📊
 
 The model achieves a test accuracy of 0.96, which is a great result considering the complexity of the dataset! 🎉 Here's a breakdown of the results:
 
@@ -46,7 +68,7 @@ The model achieves a test accuracy of 0.96, which is a great result considering 
 * Validation accuracy: 0.9420
 * Test accuracy: 0.9600
 
-### Future Work 🚀
+> ### Future Work 🚀
 
 * Experiment with different model architectures (ResNet or DenseNet 🤖) and hyperparameters (transfer learning to fine-tune the model on a different dataset 📚) to improve performance.
 
@@ -58,11 +80,19 @@ The model achieves a test accuracy of 0.96, which is a great result considering 
 * TensorFlow and Keras libraries for deep learning
 * Matplotlib and Seaborn libraries for data visualization
 
+## `🙅‍♂️Disclaimer`
 
-## `Get Involved!` 🤝
-This project demonstrates the use of deep learning techniques to classify images of butterflies into their respective species. 
-I hope you find it helpful and informative! 😊 If you have any questions or suggestions, feel free to reach out. 🤗
+> This project is licensed under AGPL-3.0 License and is for personal use only and should not be used for commercial purposes.
+The pre-trained model and may not always produce accurate results.
 
+## `Get Involved!` 😌
+This project demonstrates the potential of deep learning for butterfly species identification. 
+The model achieves high accuracy and can be used as a starting point for further research and development in this field. 
+
+I hope you found this project informative and engaging! 😊  
+If you have any suggestions or contributes to the project, please let me know! I'd love to hear from you.
+* [Follow me on GitHub](https://github.com/PhuongFX)
+* [Follow me on Hugging Face](https://huggingface.co/PhuongFX)
 
 ## `Getting Started` 🚀
 
