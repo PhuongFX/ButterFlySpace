@@ -80,7 +80,7 @@ The model achieves a test accuracy of 0.96, which is a great result considering 
 
 * Experiment with different model architectures (ResNet or DenseNet 🤖) and hyperparameters (transfer learning to fine-tune the model on a different dataset 📚) to improve performance.
 
-===============================================================================
+===========================================================================
 
 ## `Acknowledgments` 🙏
 
