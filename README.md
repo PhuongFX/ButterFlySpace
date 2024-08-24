@@ -17,7 +17,7 @@ The images were collected from various sources, including field observations, mu
 
 ## `Dataset` 📊
 
-* **Dataset URL:** https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species
+* **Dataset URL:** [🐛 Butterfly & Moths Image Classification 100 species](https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species)
 * **License:** CC0-1.0
 * **Number of images:** 12594
 * **Number of classes:** 100
