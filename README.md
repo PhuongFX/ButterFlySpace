@@ -14,7 +14,7 @@ This project is all about using deep learning to classify images of butterflies 
 The images were collected from various sources, including field observations, museum collections, and online repositories.
 
 
-## `Dataset`
+## `Dataset` 📊
 
 * **Dataset URL:** https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species
 * **License:** CC0-1.0
