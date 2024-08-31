@@ -5,7 +5,7 @@ Objectives:
     Achieve high accuracy in species identification, paving the way for future innovations in entomology, ecology, and conservation.
 
 
-Implementation
+Implementation:
 
 The implementation of the methodology can be seen in the code. The training and testing directories are created, and the images are split between them. The dataset is then loaded into a dataframe. Next, the training data is augmented and fed into the MobileNetV3 architecture. The results from the model are then evaluated and compared.
 
